@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.example.dg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="登录" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="注册" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="填写公司信息" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="查询公司信息" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="删除公司信息" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="更改公司信息" />
+
+        <com.spc.view.progressbutton.CircularProgressButton
+            android:id="@+id/bt_upload"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:cornerRadius="48dp"
+            app:iconComplete="@drawable/ic_action_accept"
+            app:iconError="@drawable/ic_action_cancel"
+            app:textIdle="@string/Upload" />
+
+        <com.spc.view.progressbutton.CircularProgressButton
+            android:id="@+id/bt_download"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:cornerRadius="48dp"
+            app:iconComplete="@drawable/ic_action_accept"
+            app:iconError="@drawable/ic_action_cancel"
+            app:textIdle="@string/Download" />
+        <com.spc.view.progressbutton.CircularProgressButton
+            android:id="@+id/bt_delete_file"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:cornerRadius="48dp"
+            app:iconComplete="@drawable/ic_action_accept"
+            app:iconError="@drawable/ic_action_cancel"
+            app:textIdle="@string/delete" />
+
+        <LinearLayout
+            android:id="@+id/ll_image"
+            style="@style/wrap_wrap"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

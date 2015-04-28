@@ -1,0 +1,65 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sc1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_login"  >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+
+        <TextView
+            style="@style/title_sytle"
+            android:text="@string/tv_com_info" />
+
+        <include
+            android:id="@+id/in1"
+            layout="@layout/item_save" />
+
+        <include
+            android:id="@+id/in2"
+            layout="@layout/item_save" />
+
+        <include
+            android:id="@+id/in3"
+            layout="@layout/item_save" />
+
+        <include
+            android:id="@+id/in4"
+            layout="@layout/item_save" />
+
+        <include
+            android:id="@+id/in5"
+            layout="@layout/item_save" />
+
+        <include
+            android:id="@+id/in6"
+            layout="@layout/item_save" />
+
+        <include
+            android:id="@+id/in7"
+            layout="@layout/item_save" />
+
+        <include
+            android:id="@+id/in8"
+            layout="@layout/item_save" />
+
+        <include
+            android:id="@+id/in9"
+            layout="@layout/item_save" />
+
+        <include
+            android:id="@+id/in10"
+            layout="@layout/item_save" />
+
+        <Button
+            android:id="@+id/bt_commit_company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bt_commit_company" />
+    </LinearLayout>
+
+</ScrollView>

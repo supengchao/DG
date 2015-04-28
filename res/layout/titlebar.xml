@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:background="@drawable/first_titleback"
+        >
+        <ImageButton 
+            android:id="@+id/ib_left"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dip"
+            android:src="@drawable/icon"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            />
+        <TextView 
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:textColor="#DCB42E"
+			android:textSize="20sp"
+			android:text="首页"
+            />
+        <TextView 
+            android:id="@+id/tv_area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            />
+        
+        
+    </RelativeLayout>
+
+</LinearLayout>

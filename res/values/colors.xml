@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="blank">#00ffffff</drawable>
+
+    <color name="newDark">#EBECED</color>
+    <color name="bind_black">#21201C</color>
+    <color name="bind_gray">#AEAEAE</color>
+    <color name="translucence">#b0000000</color> <!-- 半透明 -->
+    <color name="translucence2">#55000000</color> <!-- 半透明 -->
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="yellow">#EE7C00</color>
+    <color name="gainsboro">#DCDCDC</color>
+    <color name="royalblue">#4169e1</color>
+    <color name="darkgray">#a9a9a9</color>
+    <color name="header_normal">#00000000</color>
+    <color name="header_pressed">#ff7474F6</color>
+    <color name="left_back">#5E5E5E</color>
+    <color name="left_sele">#969696</color>
+    <color name="red">#ff0000</color>
+    <color name="gray">#9A9A9A</color>
+    <color name="order_back">#6D521B</color>
+    <color name="order_se">#5C4416</color>
+    <color name="bt_order">#C99A32</color>
+    <color name="text_cl">#626061</color>
+    <color name="bt_se">#bfbfbf</color>
+    <!-- <color name="bt_se">#f1f1f1</color> -->
+    <color name="bt_sb_no">#B8964E</color>
+    <color name="bt_sb_se">#866B35</color>
+    <color name="bt_back">#C8993D</color>
+    <color name="progress_back">#D3D3D3</color>
+    <color name="title">#ffd88a</color>
+    <color name="back">#e7e7e7</color>
+    <color name="yyy">#6c5120</color>
+    <color name="text_color">#FFFFFF</color>
+    <color name="divider_color">#11000000</color>
+    <color name="msg_color">#FFFFFFFF</color>
+    <color name="dialog_bg">#ffe74c3c</color>
+    <color name="btn_press_color">#FFa5281b</color>
+    <color name="btn_unpress_color">#FFc0392b</color>
+    <color name="grey">#ffdedede</color>
+    <color name="blue">#ff0099cc</color>
+    <color name="red">#ffff4444</color>
+    <color name="green">#ff99cc00</color>
+    <color name="white">#ffffffff</color>
+</resources>

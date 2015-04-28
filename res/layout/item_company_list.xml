@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/match_wrap"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_name"
+            style="@style/wrap_wrap" />
+
+        <TextView
+            android:id="@+id/tv_originator"
+            style="@style/wrap_wrap"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/match_wrap"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_first_divide"
+            style="@style/wrap_wrap" />
+
+        <TextView
+            android:id="@+id/tv_field_rank"
+            style="@style/wrap_wrap"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/match_wrap"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_main_business"
+            style="@style/wrap_wrap" />
+
+        <TextView
+            android:id="@+id/tv_detail_field"
+            style="@style/wrap_wrap"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/match_wrap"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_build_time"
+            style="@style/wrap_wrap" />
+
+        <TextView
+            android:id="@+id/tv_finacing_step"
+            style="@style/wrap_wrap"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_appraisement"
+        style="@style/wrap_wrap" />
+
+</LinearLayout>

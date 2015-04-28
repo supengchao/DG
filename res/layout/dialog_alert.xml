@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/et_dialog_alert"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/qq_edit_login"
+        android:hint="请输入您的邮箱" />
+ 
+    <Button
+        android:id="@+id/bt_ok"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="确定" />
+ 
+</LinearLayout>
